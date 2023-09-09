@@ -17,7 +17,7 @@ int main(void)
 	}
 	for (; i == 9; i++)
 	{
-		putchar('0' + i\n);
+		putchar('0' + i + '\n');
 	}
 	/*putchar('\n');*/
 	return (0);
