@@ -7,8 +7,10 @@
  */
 int main(void)
 {
+	int i;
 	char b16[16] = "0123456789abcdef";
-	for (int i = 0; i < 16; i++)
+
+	for (i = 0; i < 16; i++)
 	{
 		putchar(b16[i]);
 	}
