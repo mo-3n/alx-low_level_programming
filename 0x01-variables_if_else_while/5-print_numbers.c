@@ -8,6 +8,7 @@
 int main(void)
 {
 	int numbr = 0;
+
 	while (numbr < 10)
 	{
 		printf("%d", numbr);
