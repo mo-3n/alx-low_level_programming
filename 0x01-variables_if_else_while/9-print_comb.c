@@ -18,10 +18,6 @@ int main(void)
 			putchar(' ');
 		}
 	}
-	/*for (; i == 9; i++)
-	{
-		putchar('0' + i + '\n');
-		}*/
 	putchar('\n');
 	return (0);
 }
