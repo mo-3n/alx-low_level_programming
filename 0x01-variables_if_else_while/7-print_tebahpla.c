@@ -7,8 +7,10 @@
  */
 int main(void)
 {
+	int i;
 	char az[26] = "abcdefghijklmnopqrstuvwxyz";
-	for (int i = 25; i >= 0; i--)
+
+	for (i = 25; i >= 0; i--)
 	{
 		putchar(az[i]);
 	}
