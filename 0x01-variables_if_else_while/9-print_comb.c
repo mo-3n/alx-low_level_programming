@@ -15,7 +15,7 @@ int main(void)
 		putchar(',');
 		putchar(' ');
 	}
-	for (;i == 9;)
+	for (;i == 9; i++)
 	{
 		putchar('0' + i);
 	}
