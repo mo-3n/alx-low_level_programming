@@ -4,11 +4,6 @@
  * This file is about putchar function
  */
 
-int _putchar(char c)
-{
-	return (&c);
-}
-
 int main ()
 {
 	_putchar('_');
