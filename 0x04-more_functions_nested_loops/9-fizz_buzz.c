@@ -27,4 +27,5 @@ int main(int i)
 		printf("\n");
 	}
 	printf('\n');
+	return (0);
 }
