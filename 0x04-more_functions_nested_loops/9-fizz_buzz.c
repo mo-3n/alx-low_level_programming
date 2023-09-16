@@ -4,9 +4,9 @@
 /**
  * This file is about fizz_buzz test
  */
-int main(int i)
+int main(void)
 {
-	for (i = 0; i < 100; i++)
+	for (int i = 0; i < 100; i++)
 	{
 		if (i % 3 == 0)
 		{
