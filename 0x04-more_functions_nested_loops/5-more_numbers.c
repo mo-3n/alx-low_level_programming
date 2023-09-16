@@ -31,7 +31,7 @@ void more_numbers(void)
 		
 		for (j = 0; j < 21; j++)
 		{
-			_putchar(seq[j] + '0');
+			_putchar(seq[j]);
 		}
 		_putchar('\n');
 	}
