@@ -2,8 +2,9 @@
 
 /**
  * This file is about print_alphabet function
+ * 
+ * Description of the function
  */
-
 void print_alphabet(void)
 {
 	char az[26] = "abcdefghijklmnopqrstuvwxyz";
