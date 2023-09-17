@@ -4,7 +4,6 @@
  * This file is about print_alphabet function
  */
 
-/* print lowercase alphabet a-z */
 void print_alphabet(void)
 {
 	char az[26] = "abcdefghijklmnopqrstuvwxyz";

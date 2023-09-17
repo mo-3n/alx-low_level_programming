@@ -10,8 +10,10 @@ int _putchar(char c);
 /* Function prototype for _islower function */
 int _islower(int c);
 
+/* print lower alphabet */
 void print_alphabet(void);
 
+/* alphabetx10 */
 void print_alphabet_x10(void);
 
 int _isalpha(int c);
