@@ -9,10 +9,10 @@
 void times_table(void)
 {
 	int x, y;
+	int m = x * y;
 
 	for (x = 0; x < 10; x++)
 	{
-		int m = x * y;
 		for (y = 0; y < 10; y++)
 		{
 			_putchar('m');
