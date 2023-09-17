@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * This file is about print_last_digit function
+ * print_last_digit - This function do something.
+ *
+ * @n: Argument description.
+ *
+ * Return: return value description.
  */
-
-int print_last_digit(int)
+int print_last_digit(int n)
 {
-	int n;
-
 	n = n % 10;
 	return (n);
-
 }
