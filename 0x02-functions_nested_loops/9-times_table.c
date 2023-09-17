@@ -1,21 +1,24 @@
 #include "main.h"
 
 /**
- * This file is about jack_bauer function
+ * times_table - This function do something.
+ *
+ * Argument description.
+ * Return value description.
  */
-
-void jack_bauer(void)
+void times_table(void)
 {
-	for (int h = 0; h < 24; h++)
+	int x, y;
+
+	for (x = 0; x < 10; x++)
 	{
-		for (int m = 0; m < 60; m++)
+		for (y = 0; y < 10; y++)
 		{
-			_putchar('0' + (h / 10));
-			_putchar('0' + (h % 10));
-			_putchar(':');
-			_putchar('0' + (m / 10));
-			_putchar('0' + (m % 10));
-			_putchar('\n');
+			m = x * y;
+			_putchar(m);
+			_putchar(',');
+			_putchar(' ');
 		}
+		_putchar('\n');
 	}
 }
