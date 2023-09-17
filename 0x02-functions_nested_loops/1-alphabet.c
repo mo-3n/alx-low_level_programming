@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * function - This function do something.
+ * print_alphabet - This function do something.
  *
  * This function perform an action,
  * end of description.
