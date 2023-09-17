@@ -1,12 +1,15 @@
 #include "main.h"
 
 /**
- * This file is about _abs function
+ * _abs - This function do something.
+ *
+ * @n: Argument description.
+ *
+ * Return: return value description.
  */
-
 int _abs(int)
 {
-	int n , absvalue;
+	int n, absvalue;
 	
 	if (n >= 0)
 	{
