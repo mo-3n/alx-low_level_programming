@@ -4,12 +4,13 @@
  * This file is about print_alphabet function
  */
 
+/* print lowercase alphabet a-z */
 void print_alphabet(void)
 {
 	char az[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i = 0;
 
-	while(i < 26)
+	while (i < 26)
 	{
 		_putchar(az[i]);
 		i++;
