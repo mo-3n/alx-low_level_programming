@@ -3,9 +3,9 @@
 /**
  * _islower - This function do something.
  *
- * @c: This function perform an action,
+ * @c: Argument description.
  *
- * Return: end of description.
+ * Return: return value description.
  */
 int _islower(int c)
 {
