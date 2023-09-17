@@ -1,19 +1,20 @@
 #include "main.h"
 
 /**
- * This file is about print_sign function
+ * print_sign - This function do something.
+ *
+ * @n: Argument description.
+ *
+ * Return: return value description.
  */
-
 int print_sign(int n)
 {
-	int n;
-	
-	if (n > 0)
+       	if (n > 0)
 	{
 		_putchar('+');
 		return (1);
 	}
-	if else (n == 0)
+	else if (n == 0)
 	{
 		_putchar('0');
 		return (0);
