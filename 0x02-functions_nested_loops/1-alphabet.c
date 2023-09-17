@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * This file is about print_alphabet function
- * 
+ * print_alphabet function
+ *
  * Description of the function
  */
 void print_alphabet(void)
