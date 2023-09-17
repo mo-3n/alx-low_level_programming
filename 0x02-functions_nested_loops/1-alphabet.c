@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * print_alphabet function
+ * function - This function do something.
  *
- * Description of the function
+ * This function perform an action,
+ * end of description.
  */
 void print_alphabet(void)
 {
