@@ -1,15 +1,16 @@
 #include "main.h"
 
 /**
- * This file is about print_alphabet function
+ * Print function.
+ *
+ * Print something
  */
-
 void print_alphabet_x10(void)
 {
 	char az[26] = "abcdefghijklmnopqrstuvwxyz";
 	int j = 0 , i;
 
-	while(j < 10)
+	while (j < 10)
 	{
 		i = 0;
 		
