@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * This file is about jack_bauer function
+ * jack_bauer - This function do something.
+ *
+ * Argument description.
+ * Return value description.
  */
-
 void jack_bauer(void)
 {
 	for (int h = 0; h < 24; h++)
