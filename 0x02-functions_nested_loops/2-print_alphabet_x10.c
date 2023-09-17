@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * Print function.
+ * print_alphabet_x10 - Prints the alphabet ten times in lowercase.
  *
- * Print something
+ * Description: This function prints the English alphabet in lowercase ten times,
+ * with each set of alphabets separated by a newline character.
  */
 void print_alphabet_x10(void)
 {
