@@ -10,7 +10,7 @@
 int _abs(int n)
 {
 	int absvalue;
-	
+
 	if (n >= 0)
 	{
 		absvalue = n;
