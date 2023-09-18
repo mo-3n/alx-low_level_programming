@@ -1,21 +1,15 @@
 #include "main.h"
 
 /**
- * This file is about jack_bauer function
+ * add - This function do something.
+ *
+ * @num1: Argument description.
+ * @num2: Argument description.
+ *
+ * Return: return value description.
  */
-
-void jack_bauer(void)
+int add(int num1, int num2)
 {
-	for (int h = 0; h < 24; h++)
-	{
-		for (int m = 0; m < 60; m++)
-		{
-			_putchar('0' + (h / 10));
-			_putchar('0' + (h % 10));
-			_putchar(':');
-			_putchar('0' + (m / 10));
-			_putchar('0' + (m % 10));
-			_putchar('\n');
-		}
-	}
+	int sum = num1 + num2;
+	return (sum);
 }
