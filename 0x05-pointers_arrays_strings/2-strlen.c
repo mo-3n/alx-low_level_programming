@@ -5,7 +5,7 @@
  *
  * @s: Argument description.
  *
- * Return value description.
+ * Return: length value description.
  */
 int _strlen(char *s)
 {
