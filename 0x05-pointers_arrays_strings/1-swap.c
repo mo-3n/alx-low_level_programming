@@ -4,6 +4,7 @@
  * swap_int - This function do something.
  *
  * @a: Argument description.
+ * @b: Argument description.
  *
  * Return value description.
  */
