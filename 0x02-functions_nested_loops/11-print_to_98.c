@@ -11,7 +11,7 @@ void print_to_98(int n)
 {
 	int z = 98;
 	
-	if (n = z)
+	if (n == z)
 	{
 		printf("%d\n", n);
 	}
