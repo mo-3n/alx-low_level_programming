@@ -7,6 +7,8 @@
  *
  * Return: value description.
  */
+char _putchar(char n);
+
 void _puts(char *str)
 {
 	int n = 0;
