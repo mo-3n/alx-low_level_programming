@@ -18,17 +18,18 @@ void print_to_98(int n)
 	}
 	else if (n > z)
 	{
-		while (n <= z)
+		while (n >= z)
 		{
 			int b;
 
-			for (b = z; b > z && b <= n; b++)
+			for (b = n; b < n && b >= z; b--)
 			{
 				printf(", ");
 			}
-			printf("%d\n", z);
-			z++;
+			printf("%d", n);
+			n--;
 		}
+		printf("\n");
 	}
 	else
 	{
@@ -43,5 +44,6 @@ void print_to_98(int n)
 			printf("%d", n);
 			n++;
 		}
+		printf("\n");
 	}
 }
