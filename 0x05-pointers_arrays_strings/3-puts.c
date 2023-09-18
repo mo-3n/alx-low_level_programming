@@ -4,10 +4,11 @@
  * _puts - This function do something.
  *
  * @str: Argument description.
+ * @n: Argument description.
  *
  * Return: value description.
  */
-char _putchar(char n);
+char _putchar(char str);
 
 void _puts(char *str)
 {
