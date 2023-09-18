@@ -12,7 +12,22 @@ void times_table(void)
 	int y = 0;
 	int m;
 
-	for (x = 0; x < 10; x++)
+	for (x = 0; ; )
+	{
+		for (y = 0; y < 10; y++)
+		{
+			if (y > 0)
+			{
+				_putchar(',');
+				_putchar(' ');
+				_putchar(' '),
+			}
+			_putchar('0' + x * y);
+		}
+		_putchar('\n');
+	}
+	
+	for (x = 1; x < 10; x++)
 	{
 		for (y = 0; y < 10; y++)
 		{
