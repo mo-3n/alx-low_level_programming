@@ -8,13 +8,16 @@
  */
 void times_table(void)
 {
-	int x, y;
-	int m = x * y;
+	int x = 0;
+	int y = 0;
+	int m;
 
 	for (x = 0; x < 10; x++)
 	{
 		for (y = 0; y < 10; y++)
 		{
+			m = x * y;
+			
 			_putchar('m');
 			_putchar(',');
 			_putchar(' ');
