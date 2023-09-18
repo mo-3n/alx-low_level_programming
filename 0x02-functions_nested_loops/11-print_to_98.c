@@ -1,21 +1,46 @@
 #include "main.h"
 
 /**
- * This file is about jack_bauer function
+ * print_to_98 - This function do something.
+ *
+ * @n: Argument description.
+ *
+ * Return: return value description.
  */
-
-void jack_bauer(void)
+void print_to_98(int n)
 {
-	for (int h = 0; h < 24; h++)
+	int z = 98;
+	
+	if (n = z)
 	{
-		for (int m = 0; m < 60; m++)
+		printf("%d\n", n);
+	}
+	else if (n > z)
+	{
+		while (n <= z)
 		{
-			_putchar('0' + (h / 10));
-			_putchar('0' + (h % 10));
-			_putchar(':');
-			_putchar('0' + (m / 10));
-			_putchar('0' + (m % 10));
-			_putchar('\n');
+			int b;
+
+			for (b = z; b > z && b <= n; b++)
+			{
+				printf(", ");
+			}
+			printf("%d\n", n);
+			n++;
+		}
+	}
+	else
+	{
+		while (n <= z)
+		{
+			int c;
+			
+			for (c = n; c > n && c <= z; c++)
+			{
+				printf(", ");
+			}
+			printf("%d", n);
+			n++;
 		}
 	}
 }
