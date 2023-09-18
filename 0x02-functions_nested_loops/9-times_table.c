@@ -18,9 +18,19 @@ void times_table(void)
 		{
 			m = x * y;
 
-			_putchar('0' + m);
-			_putchar(',');
-			_putchar(' ');
+			if (m >= 10)
+			{
+				_putchar('0' + m / 10);
+				_putchar('0' + m % 10);
+				_putchar(',');
+				_putchar(' ');
+			}
+			else
+			{
+				_putchar('0' + m);
+				_putchar(',');
+				_putchar(' ');
+			}
 		}
 		_putchar('\n');
 	}
