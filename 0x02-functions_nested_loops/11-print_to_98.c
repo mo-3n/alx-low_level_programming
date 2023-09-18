@@ -20,11 +20,14 @@ void print_to_98(int n)
 	{
 		while (n >= z)
 		{
-			int b;
-
+			int b = n;
+/*
 			for (b = n; b < n && b >= z; b--)
+*/
+			while (b < n && b >= z)
 			{
 				printf(", ");
+				b--;
 			}
 			printf("%d", n);
 			n--;
@@ -35,11 +38,14 @@ void print_to_98(int n)
 	{
 		while (n <= z)
 		{
-			int c;
-			
+			int c = n;
+/*			
 			for (c = n; c > n && c <= z; c++)
+*/
+			while (c > n && c <= z)
 			{
 				printf(", ");
+				c++;
 			}
 			printf("%d", n);
 			n++;
