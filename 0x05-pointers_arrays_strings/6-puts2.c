@@ -3,6 +3,7 @@
 /**
  * puts2 - This function do something.
  *
+ * @s: Argument description.
  * @str: Argument description.
  *
  * Return: value description.
