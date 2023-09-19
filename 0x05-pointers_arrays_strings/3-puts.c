@@ -4,7 +4,6 @@
  * _puts - This function do something.
  *
  * @str: Argument description.
- * @n: Argument description.
  *
  * Return: value description.
  */
@@ -16,7 +15,7 @@ void _puts(char *str)
 
 	while (str[n] != '\0')
 	{
-		_putchar(str);
+		_putchar(str[n]);
 		n++;
 	}
 	_putchar('\n');
