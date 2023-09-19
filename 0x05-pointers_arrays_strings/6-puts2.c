@@ -7,14 +7,16 @@
  *
  * Return: value description.
  */
+char _putchar(char s);
+
 void puts2(char *str)
 {
-	int n = 0;
+	int s = 0;
 
-	while (n % 2 == 0 && n != '\0')
+	while (s % 2 == 0 && n != '\0')
 	{
-		_putchar(str[n]);
-		n++;
+		_putchar(str[s]);
+		s++;
 	}
 	_putchar('\n');
 }
