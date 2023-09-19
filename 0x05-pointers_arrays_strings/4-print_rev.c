@@ -23,12 +23,12 @@ int _strlen(char *s)
 
 void print_rev(char *s)
 {
-	int b;
+	int b = _strlen[s];
 /*
 	int n = 0;
 */
 
-	for (b = length; b >= 0; b--)
+	for (; b >= 0; b--)
 	{
 		_putchar(s[b]);
 	}
