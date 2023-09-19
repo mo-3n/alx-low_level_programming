@@ -8,7 +8,7 @@
  * Return: value description.
  */
 char _putchar(char s);
-int _strlen(char s);
+int _strlen(char *s);
 
 void print_rev(char *s)
 {
