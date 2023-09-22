@@ -10,8 +10,9 @@
  */
 char *_strcat(char *dest, char *src)
 {
-/*	char dest[], src[], mix[];
-*/
+/* refdest keep track of the begining of dest array */	
+	char *refdest = dest;
+
 /* while *dest is not 0 place *dest pointer at the end of dest character array */
 	while (*dest)
 	{
@@ -26,8 +27,8 @@ char *_strcat(char *dest, char *src)
 	}
 /* add 0 at the end of dest character array */
 	*dest = '\0';
-/* return final dest character array */
-	return (dest);
+/* return final oncatenated array */
+	return (refdest);
 }
 
 
