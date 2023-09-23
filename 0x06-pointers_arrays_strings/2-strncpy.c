@@ -13,17 +13,13 @@ char *_strncpy(char *dest, char *src, int n)
 {
 	int i = n - 1;
 	char *refdest = dest;
-
 	*dest = dest[i]
+		
 	for (; i < n; i++)
 	{
 		*dest = *src;
 		dest++;
 		src++;
-	}
-	for (; i < n; i++)
-	{
-		*dest = '\0';
 	}
 	return (refdest);
 }
