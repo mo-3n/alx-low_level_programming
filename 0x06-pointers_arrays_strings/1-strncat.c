@@ -12,12 +12,13 @@
 char *_strncat(char *dest, char *src, int n)
 {
 	char *refdest = dest;
+	int b = n - 1;
 
 	while (*dest)
 	{
 		dest++;
 	}
-	while (*src <= n - 1)
+	while (*src && src[b] >= 0)
 	{
 		*dest = *src;
 		dest++;
