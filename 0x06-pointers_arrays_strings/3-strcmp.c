@@ -17,7 +17,7 @@ int *_strcmp(char *s1, char *s2)
 		s1++;
 		s2++;
 	}
-	valdiff = *s1 - *s2;
+	valdiff = *(unsigned char *)s1 - *(unsigned char *)s2;
 	return (valdiff);
 }
 
