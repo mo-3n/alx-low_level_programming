@@ -3,7 +3,7 @@
 /**
  * _strcmp - This function do something.
  *
- * @s1: Argument description.
+ * @s1: Argument description*
  * @s2: Argument description.
  *
  * Return: return value description.
