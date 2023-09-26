@@ -1,26 +1,22 @@
 #include "main.h"
 
 /**
- * *_strstr - This function do something.
+ * print_chessboard - This function do something.
  *
- * @haystack: Argument description.
- * @needle: Argument description.
+ * @a: Argument description.
  *
  * Return: return value description.
  */
-char *_strstr(char *haystack, char *needle)
+void print_chessboard(char (*a)[8])
 {
 	int i, j;
 
-	for (i = 0; haystack[i] != '\0'; i++)
+	for (i = 0; i < 8; i++)
 	{
-		for (j = 0; needle[j] != '\0'; j++)
+		for (j = 0; j < 8; j++)
 		{
-			if (haystack[i + j] != needle[j])
-				break;
+			_putchar(a[i][j]);
 		}
-		if (!needle[j])
-			return (&haystack[i]);
+		_putchar('\n');
 	}
-	return (NULL);
 }
