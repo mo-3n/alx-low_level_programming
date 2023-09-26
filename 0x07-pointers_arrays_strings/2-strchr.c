@@ -10,18 +10,15 @@
  */
 char *_strchr(char *s, char c)
 {
-	int k;
+	int i;
 
-	while (1)
+	i = 0;
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		k = *s++;
-		if (k == c)
+		if (s[i] == c)
 		{
-			return (s - 1);
+			return (s[i]);
 		}
-		if (k == 0)
-		{
-			return (NULL);
-		}
+		return (NULL);
 	}
 }
