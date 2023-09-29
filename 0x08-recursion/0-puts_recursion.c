@@ -10,7 +10,7 @@
  *
  * Return: return value description.
  */
-ssize_t write(int fd, const void *buf, size_t count);
+int _puts(const char *str);
 
 void _puts_recursion(char *s)
 {
@@ -18,7 +18,7 @@ void _puts_recursion(char *s)
 	{
 		return;
 	}
-	write(1, &s, 1);
+	_puts("%c", s);
 	s++;
 	_puts_recursion(s);
 }
