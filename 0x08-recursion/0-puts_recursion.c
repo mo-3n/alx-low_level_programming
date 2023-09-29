@@ -4,10 +4,13 @@
  * _puts_recursion - This function do something.
  *
  * @s: Argument description.
+ * @fd: Arg desc
+ * @buf: Arg desc
+ * @count: Arg desc
  *
  * Return: return value description.
  */
-int _putchar(char c);
+ssize_t write(int fd, const void *buf, size_t count);
 
 void _puts_recursion(char *s)
 {
