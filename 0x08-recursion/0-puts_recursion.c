@@ -9,8 +9,7 @@
  */
 void _puts_recursion(char *s)
 {
-	unsigned int i;
-	if (s = '\0')
+	if (s == '\0')
 	{
 		return;
 	}
@@ -18,4 +17,3 @@ void _puts_recursion(char *s)
 	s++;
 	_puts_recursion(s);
 }
-
