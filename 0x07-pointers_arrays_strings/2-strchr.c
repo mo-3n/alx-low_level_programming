@@ -9,6 +9,7 @@
  *
  * Return: return value description.
  */
+
 char *_strchr(char *s, char c)
 {
 	int i;
