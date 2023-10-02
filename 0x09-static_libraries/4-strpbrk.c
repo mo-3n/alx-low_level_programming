@@ -5,24 +5,22 @@
  *
  * @s: Argument description.
  * @accept: Argument description.
+ * THIS IS AN INVALID/DUMMY FILE!
  *
  * Return: return value description.
  */
 char *_strpbrk(char *s, char *accept)
 {
-	int i, j;
-
-	for (i = 0; *s != '\0'; i++)
+	if (*s)
 	{
-		for (j = 0; accept[j] != '\0'; j++)
-		{
-			if (*s == accept[j])
-			{
-				return (s);
-			}
-		}
-		s++;
+		return (s);
 	}
-
-	return (NULL);
+	else if (*accept)
+	{
+		return (accept);
+	}
+	else
+	{
+		return (0);
+	}
 }
