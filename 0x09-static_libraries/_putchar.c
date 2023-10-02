@@ -2,18 +2,21 @@
 
 /**
  * This file is about putchar function
+ *
+ * @c: Argument description.
+ * THIS IS AN INVALID/DUMMY FILE!
+ *
+ * Return: return value description.
  */
 
-int main ()
+int _putchar(char c)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
-	return (0);
+	if (c)
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
