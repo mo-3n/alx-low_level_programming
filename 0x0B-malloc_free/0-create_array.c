@@ -1,7 +1,12 @@
 #include "main.h"
 
 /**
- * This file is about create_array
+ * create_array - This function do something.
+ *
+ * @size: Argument description.
+ * @c: Arg desc description.
+ *
+ * Return: return value description.
  */
 
 char *create_array(unsigned int size, char c)
